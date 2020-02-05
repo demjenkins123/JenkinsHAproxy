@@ -27,11 +27,11 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkinsci.plugins</groupId>
   <artifactId>pipeline-model-definition</artifactId>
-  <version>1.5.0</version>
+  <version>1.5.1</version>
   <packaging>hpi</packaging>
   <name>Pipeline: Declarative</name>
   <description>An opinionated, declarative Pipeline</description>
-  <url>https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Model+Definition+Plugin</url>
+  <url>https://github.com/jenkinsci/pipeline-model-definition-plugin</url>
   <inceptionYear>2016</inceptionYear>
   <licenses>
     <license>
@@ -49,7 +49,7 @@
   <scm>
     <connection>scm:git:https://github.com/jenkinsci/pipeline-model-definition-plugin</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/pipeline-model-definition-plugin.git</developerConnection>
-    <tag>pipeline-model-definition-1.5.0</tag>
+    <tag>pipeline-model-definition-1.5.1</tag>
     <url>https://github.com/jenkinsci/pipeline-model-definition-plugin</url>
   </scm>
   <distributionManagement>
@@ -66,19 +66,19 @@
     <dependency>
       <groupId>org.jenkinsci.plugins</groupId>
       <artifactId>pipeline-model-api</artifactId>
-      <version>1.5.0</version>
+      <version>1.5.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkinsci.plugins</groupId>
       <artifactId>pipeline-model-extensions</artifactId>
-      <version>1.5.0</version>
+      <version>1.5.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkinsci.plugins</groupId>
       <artifactId>pipeline-stage-tags-metadata</artifactId>
-      <version>1.5.0</version>
+      <version>1.5.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -102,7 +102,7 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-scm-step</artifactId>
-      <version>2.6</version>
+      <version>2.9</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
